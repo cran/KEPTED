@@ -3,7 +3,7 @@ Type: Package
 Title: Kernel-Embedding-of-Probability Test for Elliptical Distribution
 URL: https://github.com/tyy20/KEPTED
 BugReports: https://github.com/tyy20/KEPTED/issues
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Yin", "Tang", email="yqt5219@psu.edu", role=c("aut","cre")),
     person("Bing","Li", email="bxl9@psu.edu", role=c("cph","aut")))
 Maintainer: Yin Tang <yqt5219@psu.edu>
@@ -16,8 +16,8 @@ Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-03-26 21:21:10 UTC; yintang
+Packaged: 2024-04-11 15:36:29 UTC; yintang
 Author: Yin Tang [aut, cre],
   Bing Li [cph, aut]
 Repository: CRAN
-Date/Publication: 2024-03-27 09:50:02 UTC
+Date/Publication: 2024-04-11 22:10:10 UTC
