@@ -355,223 +355,225 @@ the EllKEPT function as follows.</p>
 <span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a>X<span class="ot">=</span><span class="fu">matrix</span>(<span class="fu">rnorm</span>(d<span class="sc">*</span>n),<span class="at">nrow=</span>n,<span class="at">ncol=</span>d)</span>
 <span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a><span class="fu">EllKEPT</span>(X,<span class="at">kerU=</span><span class="st">&quot;Gaussian&quot;</span>,<span class="at">kerTheta=</span><span class="st">&quot;Gaussian&quot;</span>)</span>
 <span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a><span class="co">#&gt; $stat</span></span>
-<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a><span class="co">#&gt; [1] 0.1678986</span></span>
+<span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a><span class="co">#&gt; [1] 0.3764998</span></span>
 <span id="cb2-9"><a href="#cb2-9" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-10"><a href="#cb2-10" tabindex="-1"></a><span class="co">#&gt; $pval</span></span>
-<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a><span class="co">#&gt; [1] 0.9744247</span></span>
+<span id="cb2-11"><a href="#cb2-11" tabindex="-1"></a><span class="co">#&gt; [1] 0.680362</span></span>
 <span id="cb2-12"><a href="#cb2-12" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-13"><a href="#cb2-13" tabindex="-1"></a><span class="co">#&gt; $lambda</span></span>
-<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a><span class="co">#&gt;   [1] 1.083185e-01 5.390656e-02 4.056266e-02 2.615402e-02 2.397304e-02</span></span>
-<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a><span class="co">#&gt;   [6] 1.678542e-02 1.552961e-02 1.304413e-02 1.230727e-02 1.136987e-02</span></span>
-<span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a><span class="co">#&gt;  [11] 9.971014e-03 8.543179e-03 7.361673e-03 6.436971e-03 5.517840e-03</span></span>
-<span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a><span class="co">#&gt;  [16] 5.082263e-03 4.624382e-03 4.052220e-03 3.739287e-03 3.224162e-03</span></span>
-<span id="cb2-18"><a href="#cb2-18" tabindex="-1"></a><span class="co">#&gt;  [21] 3.089185e-03 2.492850e-03 2.414644e-03 2.347269e-03 1.997503e-03</span></span>
-<span id="cb2-19"><a href="#cb2-19" tabindex="-1"></a><span class="co">#&gt;  [26] 1.846115e-03 1.568011e-03 1.510024e-03 1.278213e-03 1.182650e-03</span></span>
-<span id="cb2-20"><a href="#cb2-20" tabindex="-1"></a><span class="co">#&gt;  [31] 1.111139e-03 1.056183e-03 9.535575e-04 9.178953e-04 8.495422e-04</span></span>
-<span id="cb2-21"><a href="#cb2-21" tabindex="-1"></a><span class="co">#&gt;  [36] 7.729220e-04 6.636268e-04 6.217777e-04 5.605341e-04 5.322503e-04</span></span>
-<span id="cb2-22"><a href="#cb2-22" tabindex="-1"></a><span class="co">#&gt;  [41] 4.876541e-04 4.729021e-04 4.455285e-04 3.700578e-04 3.656361e-04</span></span>
-<span id="cb2-23"><a href="#cb2-23" tabindex="-1"></a><span class="co">#&gt;  [46] 3.495837e-04 3.108027e-04 2.585114e-04 2.514386e-04 2.466301e-04</span></span>
-<span id="cb2-24"><a href="#cb2-24" tabindex="-1"></a><span class="co">#&gt;  [51] 2.345982e-04 2.113775e-04 1.874199e-04 1.755225e-04 1.686672e-04</span></span>
-<span id="cb2-25"><a href="#cb2-25" tabindex="-1"></a><span class="co">#&gt;  [56] 1.512902e-04 1.412815e-04 1.213095e-04 1.175182e-04 1.086449e-04</span></span>
-<span id="cb2-26"><a href="#cb2-26" tabindex="-1"></a><span class="co">#&gt;  [61] 1.017939e-04 9.375189e-05 8.946093e-05 8.447743e-05 7.674666e-05</span></span>
-<span id="cb2-27"><a href="#cb2-27" tabindex="-1"></a><span class="co">#&gt;  [66] 7.334655e-05 6.281512e-05 6.123337e-05 5.947872e-05 5.290072e-05</span></span>
-<span id="cb2-28"><a href="#cb2-28" tabindex="-1"></a><span class="co">#&gt;  [71] 4.857779e-05 4.457709e-05 4.301431e-05 3.988720e-05 3.816786e-05</span></span>
-<span id="cb2-29"><a href="#cb2-29" tabindex="-1"></a><span class="co">#&gt;  [76] 3.614950e-05 3.301569e-05 2.961962e-05 2.854101e-05 2.590896e-05</span></span>
-<span id="cb2-30"><a href="#cb2-30" tabindex="-1"></a><span class="co">#&gt;  [81] 2.440504e-05 2.355928e-05 2.180757e-05 1.947096e-05 1.884867e-05</span></span>
-<span id="cb2-31"><a href="#cb2-31" tabindex="-1"></a><span class="co">#&gt;  [86] 1.698426e-05 1.613908e-05 1.543548e-05 1.456427e-05 1.297578e-05</span></span>
-<span id="cb2-32"><a href="#cb2-32" tabindex="-1"></a><span class="co">#&gt;  [91] 1.179732e-05 1.145114e-05 1.074038e-05 1.000424e-05 9.499516e-06</span></span>
-<span id="cb2-33"><a href="#cb2-33" tabindex="-1"></a><span class="co">#&gt;  [96] 8.863528e-06 8.453200e-06 8.321884e-06 7.506667e-06 7.033474e-06</span></span>
-<span id="cb2-34"><a href="#cb2-34" tabindex="-1"></a><span class="co">#&gt; [101] 6.730976e-06 6.077607e-06 5.898691e-06 5.292334e-06 5.067795e-06</span></span>
-<span id="cb2-35"><a href="#cb2-35" tabindex="-1"></a><span class="co">#&gt; [106] 4.962676e-06 4.405522e-06 4.078090e-06 3.836229e-06 3.634557e-06</span></span>
-<span id="cb2-36"><a href="#cb2-36" tabindex="-1"></a><span class="co">#&gt; [111] 3.500816e-06 3.428489e-06 3.174166e-06 2.914515e-06 2.779692e-06</span></span>
-<span id="cb2-37"><a href="#cb2-37" tabindex="-1"></a><span class="co">#&gt; [116] 2.554305e-06 2.493417e-06 2.388584e-06 2.304432e-06 2.231046e-06</span></span>
-<span id="cb2-38"><a href="#cb2-38" tabindex="-1"></a><span class="co">#&gt; [121] 2.159650e-06 2.072940e-06 1.927626e-06 1.874414e-06 1.799337e-06</span></span>
-<span id="cb2-39"><a href="#cb2-39" tabindex="-1"></a><span class="co">#&gt; [126] 1.694284e-06 1.654916e-06 1.635643e-06 1.595952e-06 1.515097e-06</span></span>
-<span id="cb2-40"><a href="#cb2-40" tabindex="-1"></a><span class="co">#&gt; [131] 1.474398e-06 1.431700e-06 1.410427e-06 1.363227e-06 1.347514e-06</span></span>
-<span id="cb2-41"><a href="#cb2-41" tabindex="-1"></a><span class="co">#&gt; [136] 1.320238e-06 1.288477e-06 1.274617e-06 1.253416e-06 1.232910e-06</span></span>
-<span id="cb2-42"><a href="#cb2-42" tabindex="-1"></a><span class="co">#&gt; [141] 1.208701e-06 1.201496e-06 1.184967e-06 1.178474e-06 1.161600e-06</span></span>
-<span id="cb2-43"><a href="#cb2-43" tabindex="-1"></a><span class="co">#&gt; [146] 1.142822e-06 1.141907e-06 1.122929e-06 1.109556e-06 1.105262e-06</span></span>
-<span id="cb2-44"><a href="#cb2-44" tabindex="-1"></a><span class="co">#&gt; [151] 1.094491e-06 1.087727e-06 1.078455e-06 1.072738e-06 1.066912e-06</span></span>
-<span id="cb2-45"><a href="#cb2-45" tabindex="-1"></a><span class="co">#&gt; [156] 1.058566e-06 1.054685e-06 1.046457e-06 1.043527e-06 1.040463e-06</span></span>
-<span id="cb2-46"><a href="#cb2-46" tabindex="-1"></a><span class="co">#&gt; [161] 1.035262e-06 1.034214e-06 1.032109e-06 1.029122e-06 1.027364e-06</span></span>
-<span id="cb2-47"><a href="#cb2-47" tabindex="-1"></a><span class="co">#&gt; [166] 1.023588e-06 1.021806e-06 1.020432e-06 1.019973e-06 1.019335e-06</span></span>
-<span id="cb2-48"><a href="#cb2-48" tabindex="-1"></a><span class="co">#&gt; [171] 1.018087e-06 1.015526e-06 1.015053e-06 1.014556e-06 1.013650e-06</span></span>
-<span id="cb2-49"><a href="#cb2-49" tabindex="-1"></a><span class="co">#&gt; [176] 1.012953e-06 1.012124e-06 1.011507e-06 1.011095e-06 1.010530e-06</span></span>
-<span id="cb2-50"><a href="#cb2-50" tabindex="-1"></a><span class="co">#&gt; [181] 1.009931e-06 1.009451e-06 1.009239e-06 1.008895e-06 1.008638e-06</span></span>
-<span id="cb2-51"><a href="#cb2-51" tabindex="-1"></a><span class="co">#&gt; [186] 1.008483e-06 1.008103e-06 1.008065e-06 1.007947e-06 1.007737e-06</span></span>
-<span id="cb2-52"><a href="#cb2-52" tabindex="-1"></a><span class="co">#&gt; [191] 1.007456e-06 1.007426e-06 1.007254e-06 1.007155e-06 1.007036e-06</span></span>
-<span id="cb2-53"><a href="#cb2-53" tabindex="-1"></a><span class="co">#&gt; [196] 1.006867e-06 1.006767e-06 1.006712e-06 1.006640e-06 1.006563e-06</span></span>
+<span id="cb2-14"><a href="#cb2-14" tabindex="-1"></a><span class="co">#&gt;   [1] 1.819678e-01 8.859639e-02 4.311198e-02 3.573950e-02 2.496945e-02</span></span>
+<span id="cb2-15"><a href="#cb2-15" tabindex="-1"></a><span class="co">#&gt;   [6] 2.092285e-02 2.015604e-02 1.584026e-02 1.345295e-02 1.148667e-02</span></span>
+<span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a><span class="co">#&gt;  [11] 9.925853e-03 7.997193e-03 6.641176e-03 6.078209e-03 5.481532e-03</span></span>
+<span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a><span class="co">#&gt;  [16] 5.088321e-03 4.646323e-03 4.298722e-03 3.890892e-03 3.534692e-03</span></span>
+<span id="cb2-18"><a href="#cb2-18" tabindex="-1"></a><span class="co">#&gt;  [21] 3.066614e-03 2.896420e-03 2.597612e-03 2.298584e-03 2.120927e-03</span></span>
+<span id="cb2-19"><a href="#cb2-19" tabindex="-1"></a><span class="co">#&gt;  [26] 1.805220e-03 1.774317e-03 1.629733e-03 1.430353e-03 1.369936e-03</span></span>
+<span id="cb2-20"><a href="#cb2-20" tabindex="-1"></a><span class="co">#&gt;  [31] 1.125288e-03 1.051021e-03 9.011795e-04 8.670821e-04 8.321789e-04</span></span>
+<span id="cb2-21"><a href="#cb2-21" tabindex="-1"></a><span class="co">#&gt;  [36] 7.539847e-04 7.083105e-04 6.776681e-04 5.760635e-04 5.316387e-04</span></span>
+<span id="cb2-22"><a href="#cb2-22" tabindex="-1"></a><span class="co">#&gt;  [41] 5.099645e-04 4.458813e-04 3.862310e-04 3.592264e-04 3.571517e-04</span></span>
+<span id="cb2-23"><a href="#cb2-23" tabindex="-1"></a><span class="co">#&gt;  [46] 3.254164e-04 2.980700e-04 2.754665e-04 2.625843e-04 2.563173e-04</span></span>
+<span id="cb2-24"><a href="#cb2-24" tabindex="-1"></a><span class="co">#&gt;  [51] 2.338052e-04 2.128504e-04 1.969418e-04 1.698421e-04 1.670343e-04</span></span>
+<span id="cb2-25"><a href="#cb2-25" tabindex="-1"></a><span class="co">#&gt;  [56] 1.528940e-04 1.406219e-04 1.297983e-04 1.227427e-04 1.199654e-04</span></span>
+<span id="cb2-26"><a href="#cb2-26" tabindex="-1"></a><span class="co">#&gt;  [61] 1.014496e-04 1.002983e-04 9.136821e-05 8.097468e-05 7.572040e-05</span></span>
+<span id="cb2-27"><a href="#cb2-27" tabindex="-1"></a><span class="co">#&gt;  [66] 7.236464e-05 6.854316e-05 6.273478e-05 6.031530e-05 5.384295e-05</span></span>
+<span id="cb2-28"><a href="#cb2-28" tabindex="-1"></a><span class="co">#&gt;  [71] 5.052860e-05 4.827937e-05 4.164258e-05 3.861283e-05 3.752123e-05</span></span>
+<span id="cb2-29"><a href="#cb2-29" tabindex="-1"></a><span class="co">#&gt;  [76] 3.343350e-05 3.167658e-05 3.131875e-05 2.803571e-05 2.698283e-05</span></span>
+<span id="cb2-30"><a href="#cb2-30" tabindex="-1"></a><span class="co">#&gt;  [81] 2.621932e-05 2.298439e-05 2.114936e-05 2.042926e-05 1.840765e-05</span></span>
+<span id="cb2-31"><a href="#cb2-31" tabindex="-1"></a><span class="co">#&gt;  [86] 1.678688e-05 1.627989e-05 1.587713e-05 1.476144e-05 1.355310e-05</span></span>
+<span id="cb2-32"><a href="#cb2-32" tabindex="-1"></a><span class="co">#&gt;  [91] 1.243200e-05 1.151029e-05 1.099520e-05 1.007340e-05 9.504988e-06</span></span>
+<span id="cb2-33"><a href="#cb2-33" tabindex="-1"></a><span class="co">#&gt;  [96] 9.327902e-06 8.022083e-06 7.333971e-06 7.124983e-06 6.497922e-06</span></span>
+<span id="cb2-34"><a href="#cb2-34" tabindex="-1"></a><span class="co">#&gt; [101] 6.070890e-06 5.893379e-06 5.525891e-06 4.878416e-06 4.723788e-06</span></span>
+<span id="cb2-35"><a href="#cb2-35" tabindex="-1"></a><span class="co">#&gt; [106] 4.184999e-06 4.042652e-06 3.837088e-06 3.802513e-06 3.481854e-06</span></span>
+<span id="cb2-36"><a href="#cb2-36" tabindex="-1"></a><span class="co">#&gt; [111] 3.366262e-06 3.161514e-06 2.989860e-06 2.842040e-06 2.633505e-06</span></span>
+<span id="cb2-37"><a href="#cb2-37" tabindex="-1"></a><span class="co">#&gt; [116] 2.540966e-06 2.353524e-06 2.318986e-06 2.274100e-06 2.074689e-06</span></span>
+<span id="cb2-38"><a href="#cb2-38" tabindex="-1"></a><span class="co">#&gt; [121] 2.055366e-06 1.951917e-06 1.853630e-06 1.806746e-06 1.717862e-06</span></span>
+<span id="cb2-39"><a href="#cb2-39" tabindex="-1"></a><span class="co">#&gt; [126] 1.637110e-06 1.599115e-06 1.563407e-06 1.509402e-06 1.468904e-06</span></span>
+<span id="cb2-40"><a href="#cb2-40" tabindex="-1"></a><span class="co">#&gt; [131] 1.428510e-06 1.387058e-06 1.350403e-06 1.339686e-06 1.331911e-06</span></span>
+<span id="cb2-41"><a href="#cb2-41" tabindex="-1"></a><span class="co">#&gt; [136] 1.314591e-06 1.247235e-06 1.244579e-06 1.224819e-06 1.214516e-06</span></span>
+<span id="cb2-42"><a href="#cb2-42" tabindex="-1"></a><span class="co">#&gt; [141] 1.198240e-06 1.175656e-06 1.148695e-06 1.147188e-06 1.135552e-06</span></span>
+<span id="cb2-43"><a href="#cb2-43" tabindex="-1"></a><span class="co">#&gt; [146] 1.121828e-06 1.111691e-06 1.097105e-06 1.089403e-06 1.083147e-06</span></span>
+<span id="cb2-44"><a href="#cb2-44" tabindex="-1"></a><span class="co">#&gt; [151] 1.076465e-06 1.072229e-06 1.068591e-06 1.059781e-06 1.051491e-06</span></span>
+<span id="cb2-45"><a href="#cb2-45" tabindex="-1"></a><span class="co">#&gt; [156] 1.048380e-06 1.046975e-06 1.043512e-06 1.041819e-06 1.037596e-06</span></span>
+<span id="cb2-46"><a href="#cb2-46" tabindex="-1"></a><span class="co">#&gt; [161] 1.033220e-06 1.031394e-06 1.025980e-06 1.025493e-06 1.022754e-06</span></span>
+<span id="cb2-47"><a href="#cb2-47" tabindex="-1"></a><span class="co">#&gt; [166] 1.021883e-06 1.020563e-06 1.018547e-06 1.018305e-06 1.016948e-06</span></span>
+<span id="cb2-48"><a href="#cb2-48" tabindex="-1"></a><span class="co">#&gt; [171] 1.016414e-06 1.015694e-06 1.014555e-06 1.013278e-06 1.012625e-06</span></span>
+<span id="cb2-49"><a href="#cb2-49" tabindex="-1"></a><span class="co">#&gt; [176] 1.012510e-06 1.011141e-06 1.010818e-06 1.010127e-06 1.009900e-06</span></span>
+<span id="cb2-50"><a href="#cb2-50" tabindex="-1"></a><span class="co">#&gt; [181] 1.009348e-06 1.008823e-06 1.008684e-06 1.008561e-06 1.008350e-06</span></span>
+<span id="cb2-51"><a href="#cb2-51" tabindex="-1"></a><span class="co">#&gt; [186] 1.008188e-06 1.008121e-06 1.008003e-06 1.007906e-06 1.007604e-06</span></span>
+<span id="cb2-52"><a href="#cb2-52" tabindex="-1"></a><span class="co">#&gt; [191] 1.007460e-06 1.007436e-06 1.007370e-06 1.007293e-06 1.007172e-06</span></span>
+<span id="cb2-53"><a href="#cb2-53" tabindex="-1"></a><span class="co">#&gt; [196] 1.007004e-06 1.006877e-06 1.006809e-06 1.006656e-06 1.006570e-06</span></span>
 <span id="cb2-54"><a href="#cb2-54" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-55"><a href="#cb2-55" tabindex="-1"></a><span class="co">#&gt; $gamma.U</span></span>
-<span id="cb2-56"><a href="#cb2-56" tabindex="-1"></a><span class="co">#&gt; [1] 1.848109</span></span>
+<span id="cb2-56"><a href="#cb2-56" tabindex="-1"></a><span class="co">#&gt; [1] 1.647239</span></span>
 <span id="cb2-57"><a href="#cb2-57" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-58"><a href="#cb2-58" tabindex="-1"></a><span class="co">#&gt; $gamma.Theta</span></span>
-<span id="cb2-59"><a href="#cb2-59" tabindex="-1"></a><span class="co">#&gt; [1] 0.1778428</span></span>
+<span id="cb2-59"><a href="#cb2-59" tabindex="-1"></a><span class="co">#&gt; [1] 0.1779187</span></span>
 <span id="cb2-60"><a href="#cb2-60" tabindex="-1"></a><span class="fu">EllKEPT</span>(X,<span class="at">kerU=</span><span class="st">&quot;PIQ&quot;</span>,<span class="at">kerTheta=</span><span class="st">&quot;PIQ&quot;</span>)</span>
 <span id="cb2-61"><a href="#cb2-61" tabindex="-1"></a><span class="co">#&gt; $stat</span></span>
-<span id="cb2-62"><a href="#cb2-62" tabindex="-1"></a><span class="co">#&gt; [1] 0.1503235</span></span>
+<span id="cb2-62"><a href="#cb2-62" tabindex="-1"></a><span class="co">#&gt; [1] 0.2739666</span></span>
 <span id="cb2-63"><a href="#cb2-63" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-64"><a href="#cb2-64" tabindex="-1"></a><span class="co">#&gt; $pval</span></span>
-<span id="cb2-65"><a href="#cb2-65" tabindex="-1"></a><span class="co">#&gt; [1] 0.9650482</span></span>
+<span id="cb2-65"><a href="#cb2-65" tabindex="-1"></a><span class="co">#&gt; [1] 0.7741983</span></span>
 <span id="cb2-66"><a href="#cb2-66" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-67"><a href="#cb2-67" tabindex="-1"></a><span class="co">#&gt; $lambda</span></span>
-<span id="cb2-68"><a href="#cb2-68" tabindex="-1"></a><span class="co">#&gt;   [1] 9.484795e-02 3.561610e-02 2.669564e-02 1.950793e-02 1.790316e-02</span></span>
-<span id="cb2-69"><a href="#cb2-69" tabindex="-1"></a><span class="co">#&gt;   [6] 1.131528e-02 1.055895e-02 9.870617e-03 9.207948e-03 8.684482e-03</span></span>
-<span id="cb2-70"><a href="#cb2-70" tabindex="-1"></a><span class="co">#&gt;  [11] 7.565306e-03 6.078789e-03 5.714858e-03 5.247969e-03 4.736065e-03</span></span>
-<span id="cb2-71"><a href="#cb2-71" tabindex="-1"></a><span class="co">#&gt;  [16] 4.218432e-03 4.105399e-03 3.632535e-03 3.289499e-03 3.021455e-03</span></span>
-<span id="cb2-72"><a href="#cb2-72" tabindex="-1"></a><span class="co">#&gt;  [21] 2.747719e-03 2.641269e-03 2.346379e-03 2.234228e-03 1.925483e-03</span></span>
-<span id="cb2-73"><a href="#cb2-73" tabindex="-1"></a><span class="co">#&gt;  [26] 1.833362e-03 1.751724e-03 1.494597e-03 1.315436e-03 1.273748e-03</span></span>
-<span id="cb2-74"><a href="#cb2-74" tabindex="-1"></a><span class="co">#&gt;  [31] 1.264748e-03 1.171063e-03 1.110554e-03 1.041019e-03 1.009482e-03</span></span>
-<span id="cb2-75"><a href="#cb2-75" tabindex="-1"></a><span class="co">#&gt;  [36] 9.696549e-04 8.866083e-04 8.345721e-04 7.793604e-04 7.497690e-04</span></span>
-<span id="cb2-76"><a href="#cb2-76" tabindex="-1"></a><span class="co">#&gt;  [41] 6.794692e-04 6.475261e-04 6.462045e-04 5.751280e-04 5.410628e-04</span></span>
-<span id="cb2-77"><a href="#cb2-77" tabindex="-1"></a><span class="co">#&gt;  [46] 5.215706e-04 4.658643e-04 4.593570e-04 4.425821e-04 4.253853e-04</span></span>
-<span id="cb2-78"><a href="#cb2-78" tabindex="-1"></a><span class="co">#&gt;  [51] 4.024009e-04 3.876845e-04 3.660065e-04 3.444262e-04 3.214553e-04</span></span>
-<span id="cb2-79"><a href="#cb2-79" tabindex="-1"></a><span class="co">#&gt;  [56] 3.105142e-04 2.958324e-04 2.729900e-04 2.625119e-04 2.461519e-04</span></span>
-<span id="cb2-80"><a href="#cb2-80" tabindex="-1"></a><span class="co">#&gt;  [61] 2.404277e-04 2.212422e-04 2.058213e-04 1.911617e-04 1.862934e-04</span></span>
-<span id="cb2-81"><a href="#cb2-81" tabindex="-1"></a><span class="co">#&gt;  [66] 1.839827e-04 1.782051e-04 1.634863e-04 1.585317e-04 1.443885e-04</span></span>
-<span id="cb2-82"><a href="#cb2-82" tabindex="-1"></a><span class="co">#&gt;  [71] 1.410117e-04 1.315955e-04 1.289836e-04 1.248029e-04 1.183916e-04</span></span>
-<span id="cb2-83"><a href="#cb2-83" tabindex="-1"></a><span class="co">#&gt;  [76] 1.123950e-04 1.073440e-04 1.040440e-04 1.003870e-04 9.055464e-05</span></span>
-<span id="cb2-84"><a href="#cb2-84" tabindex="-1"></a><span class="co">#&gt;  [81] 8.819229e-05 8.150879e-05 7.910840e-05 7.706104e-05 6.937992e-05</span></span>
-<span id="cb2-85"><a href="#cb2-85" tabindex="-1"></a><span class="co">#&gt;  [86] 6.721267e-05 6.436965e-05 5.901716e-05 5.788015e-05 5.236940e-05</span></span>
-<span id="cb2-86"><a href="#cb2-86" tabindex="-1"></a><span class="co">#&gt;  [91] 5.021582e-05 4.932436e-05 4.760109e-05 4.605967e-05 4.492889e-05</span></span>
-<span id="cb2-87"><a href="#cb2-87" tabindex="-1"></a><span class="co">#&gt;  [96] 4.149111e-05 3.903026e-05 3.767900e-05 3.664043e-05 3.421398e-05</span></span>
-<span id="cb2-88"><a href="#cb2-88" tabindex="-1"></a><span class="co">#&gt; [101] 3.279307e-05 3.117957e-05 2.914729e-05 2.884277e-05 2.778149e-05</span></span>
-<span id="cb2-89"><a href="#cb2-89" tabindex="-1"></a><span class="co">#&gt; [106] 2.728872e-05 2.630226e-05 2.545566e-05 2.398518e-05 2.249073e-05</span></span>
-<span id="cb2-90"><a href="#cb2-90" tabindex="-1"></a><span class="co">#&gt; [111] 2.147819e-05 2.121872e-05 1.955103e-05 1.876934e-05 1.793636e-05</span></span>
-<span id="cb2-91"><a href="#cb2-91" tabindex="-1"></a><span class="co">#&gt; [116] 1.722772e-05 1.655264e-05 1.613572e-05 1.509385e-05 1.392452e-05</span></span>
-<span id="cb2-92"><a href="#cb2-92" tabindex="-1"></a><span class="co">#&gt; [121] 1.334906e-05 1.268514e-05 1.253628e-05 1.174815e-05 1.136248e-05</span></span>
-<span id="cb2-93"><a href="#cb2-93" tabindex="-1"></a><span class="co">#&gt; [126] 1.062303e-05 9.888994e-06 9.744278e-06 9.066721e-06 8.934773e-06</span></span>
-<span id="cb2-94"><a href="#cb2-94" tabindex="-1"></a><span class="co">#&gt; [131] 8.787139e-06 8.246965e-06 7.669836e-06 7.281496e-06 6.685921e-06</span></span>
-<span id="cb2-95"><a href="#cb2-95" tabindex="-1"></a><span class="co">#&gt; [136] 6.588381e-06 6.335071e-06 6.109974e-06 5.799953e-06 5.524646e-06</span></span>
-<span id="cb2-96"><a href="#cb2-96" tabindex="-1"></a><span class="co">#&gt; [141] 5.458421e-06 5.046885e-06 4.692672e-06 4.567471e-06 4.450786e-06</span></span>
-<span id="cb2-97"><a href="#cb2-97" tabindex="-1"></a><span class="co">#&gt; [146] 4.323303e-06 4.165674e-06 3.967148e-06 3.850256e-06 3.760109e-06</span></span>
-<span id="cb2-98"><a href="#cb2-98" tabindex="-1"></a><span class="co">#&gt; [151] 3.674297e-06 3.598966e-06 3.381203e-06 3.250883e-06 3.174972e-06</span></span>
-<span id="cb2-99"><a href="#cb2-99" tabindex="-1"></a><span class="co">#&gt; [156] 2.974227e-06 2.872635e-06 2.712105e-06 2.642509e-06 2.432329e-06</span></span>
-<span id="cb2-100"><a href="#cb2-100" tabindex="-1"></a><span class="co">#&gt; [161] 2.407636e-06 2.306336e-06 2.249606e-06 2.190046e-06 2.074787e-06</span></span>
-<span id="cb2-101"><a href="#cb2-101" tabindex="-1"></a><span class="co">#&gt; [166] 1.925506e-06 1.885381e-06 1.822314e-06 1.747626e-06 1.725496e-06</span></span>
-<span id="cb2-102"><a href="#cb2-102" tabindex="-1"></a><span class="co">#&gt; [171] 1.669954e-06 1.579292e-06 1.539292e-06 1.508963e-06 1.452285e-06</span></span>
-<span id="cb2-103"><a href="#cb2-103" tabindex="-1"></a><span class="co">#&gt; [176] 1.419973e-06 1.413538e-06 1.377707e-06 1.355145e-06 1.335675e-06</span></span>
-<span id="cb2-104"><a href="#cb2-104" tabindex="-1"></a><span class="co">#&gt; [181] 1.331425e-06 1.302395e-06 1.270499e-06 1.225289e-06 1.205829e-06</span></span>
-<span id="cb2-105"><a href="#cb2-105" tabindex="-1"></a><span class="co">#&gt; [186] 1.171387e-06 1.155803e-06 1.144282e-06 1.130620e-06 1.118648e-06</span></span>
-<span id="cb2-106"><a href="#cb2-106" tabindex="-1"></a><span class="co">#&gt; [191] 1.108285e-06 1.091960e-06 1.071140e-06 1.069570e-06 1.062423e-06</span></span>
-<span id="cb2-107"><a href="#cb2-107" tabindex="-1"></a><span class="co">#&gt; [196] 1.055209e-06 1.041399e-06 1.030498e-06 1.026858e-06 1.012902e-06</span></span>
+<span id="cb2-68"><a href="#cb2-68" tabindex="-1"></a><span class="co">#&gt;   [1] 1.692583e-01 7.210401e-02 2.875603e-02 2.449653e-02 2.046420e-02</span></span>
+<span id="cb2-69"><a href="#cb2-69" tabindex="-1"></a><span class="co">#&gt;   [6] 1.653361e-02 1.240950e-02 1.177546e-02 9.196839e-03 8.036295e-03</span></span>
+<span id="cb2-70"><a href="#cb2-70" tabindex="-1"></a><span class="co">#&gt;  [11] 7.316418e-03 6.271949e-03 5.392579e-03 4.875141e-03 4.598875e-03</span></span>
+<span id="cb2-71"><a href="#cb2-71" tabindex="-1"></a><span class="co">#&gt;  [16] 4.377681e-03 4.251153e-03 3.758009e-03 3.449927e-03 3.316255e-03</span></span>
+<span id="cb2-72"><a href="#cb2-72" tabindex="-1"></a><span class="co">#&gt;  [21] 3.262372e-03 2.793120e-03 2.545212e-03 2.295188e-03 2.013642e-03</span></span>
+<span id="cb2-73"><a href="#cb2-73" tabindex="-1"></a><span class="co">#&gt;  [26] 1.840438e-03 1.731809e-03 1.567588e-03 1.447064e-03 1.398426e-03</span></span>
+<span id="cb2-74"><a href="#cb2-74" tabindex="-1"></a><span class="co">#&gt;  [31] 1.328827e-03 1.207243e-03 1.157847e-03 1.062160e-03 9.920254e-04</span></span>
+<span id="cb2-75"><a href="#cb2-75" tabindex="-1"></a><span class="co">#&gt;  [36] 9.842446e-04 8.729641e-04 8.569099e-04 7.944976e-04 7.659054e-04</span></span>
+<span id="cb2-76"><a href="#cb2-76" tabindex="-1"></a><span class="co">#&gt;  [41] 7.422224e-04 6.692730e-04 6.640449e-04 5.948304e-04 5.753479e-04</span></span>
+<span id="cb2-77"><a href="#cb2-77" tabindex="-1"></a><span class="co">#&gt;  [46] 5.560703e-04 5.208364e-04 4.974141e-04 4.480182e-04 4.228881e-04</span></span>
+<span id="cb2-78"><a href="#cb2-78" tabindex="-1"></a><span class="co">#&gt;  [51] 4.055076e-04 3.855558e-04 3.669754e-04 3.495040e-04 3.361526e-04</span></span>
+<span id="cb2-79"><a href="#cb2-79" tabindex="-1"></a><span class="co">#&gt;  [56] 2.994801e-04 2.922629e-04 2.747843e-04 2.617460e-04 2.443880e-04</span></span>
+<span id="cb2-80"><a href="#cb2-80" tabindex="-1"></a><span class="co">#&gt;  [61] 2.423603e-04 2.224680e-04 2.162257e-04 2.049304e-04 1.880803e-04</span></span>
+<span id="cb2-81"><a href="#cb2-81" tabindex="-1"></a><span class="co">#&gt;  [66] 1.813330e-04 1.760745e-04 1.647155e-04 1.628233e-04 1.540425e-04</span></span>
+<span id="cb2-82"><a href="#cb2-82" tabindex="-1"></a><span class="co">#&gt;  [71] 1.381904e-04 1.311431e-04 1.275146e-04 1.190629e-04 1.171990e-04</span></span>
+<span id="cb2-83"><a href="#cb2-83" tabindex="-1"></a><span class="co">#&gt;  [76] 1.144218e-04 1.072514e-04 1.035634e-04 9.585063e-05 9.519066e-05</span></span>
+<span id="cb2-84"><a href="#cb2-84" tabindex="-1"></a><span class="co">#&gt;  [81] 8.800650e-05 8.588029e-05 8.230914e-05 7.869944e-05 7.371268e-05</span></span>
+<span id="cb2-85"><a href="#cb2-85" tabindex="-1"></a><span class="co">#&gt;  [86] 7.040539e-05 6.649088e-05 6.406785e-05 5.974636e-05 5.588585e-05</span></span>
+<span id="cb2-86"><a href="#cb2-86" tabindex="-1"></a><span class="co">#&gt;  [91] 5.432946e-05 4.968628e-05 4.737612e-05 4.650206e-05 4.409302e-05</span></span>
+<span id="cb2-87"><a href="#cb2-87" tabindex="-1"></a><span class="co">#&gt;  [96] 4.159529e-05 3.821161e-05 3.675693e-05 3.475765e-05 3.412642e-05</span></span>
+<span id="cb2-88"><a href="#cb2-88" tabindex="-1"></a><span class="co">#&gt; [101] 3.327703e-05 3.163866e-05 3.128810e-05 2.871197e-05 2.764771e-05</span></span>
+<span id="cb2-89"><a href="#cb2-89" tabindex="-1"></a><span class="co">#&gt; [106] 2.546442e-05 2.475085e-05 2.345919e-05 2.272484e-05 2.197757e-05</span></span>
+<span id="cb2-90"><a href="#cb2-90" tabindex="-1"></a><span class="co">#&gt; [111] 2.134873e-05 2.078774e-05 2.048082e-05 1.856412e-05 1.716656e-05</span></span>
+<span id="cb2-91"><a href="#cb2-91" tabindex="-1"></a><span class="co">#&gt; [116] 1.654508e-05 1.588934e-05 1.517091e-05 1.448585e-05 1.378776e-05</span></span>
+<span id="cb2-92"><a href="#cb2-92" tabindex="-1"></a><span class="co">#&gt; [121] 1.254964e-05 1.207902e-05 1.158289e-05 1.146400e-05 1.130087e-05</span></span>
+<span id="cb2-93"><a href="#cb2-93" tabindex="-1"></a><span class="co">#&gt; [126] 1.039271e-05 1.003035e-05 9.003831e-06 8.821090e-06 8.594679e-06</span></span>
+<span id="cb2-94"><a href="#cb2-94" tabindex="-1"></a><span class="co">#&gt; [131] 7.919648e-06 7.608858e-06 7.221278e-06 6.735347e-06 6.416098e-06</span></span>
+<span id="cb2-95"><a href="#cb2-95" tabindex="-1"></a><span class="co">#&gt; [136] 6.123271e-06 5.996181e-06 5.749146e-06 5.631612e-06 5.264578e-06</span></span>
+<span id="cb2-96"><a href="#cb2-96" tabindex="-1"></a><span class="co">#&gt; [141] 5.152943e-06 4.761763e-06 4.541517e-06 4.445937e-06 4.356193e-06</span></span>
+<span id="cb2-97"><a href="#cb2-97" tabindex="-1"></a><span class="co">#&gt; [146] 4.167659e-06 4.058523e-06 3.917721e-06 3.750446e-06 3.454469e-06</span></span>
+<span id="cb2-98"><a href="#cb2-98" tabindex="-1"></a><span class="co">#&gt; [151] 3.227278e-06 3.120220e-06 3.027287e-06 2.961300e-06 2.870249e-06</span></span>
+<span id="cb2-99"><a href="#cb2-99" tabindex="-1"></a><span class="co">#&gt; [156] 2.729545e-06 2.592736e-06 2.512555e-06 2.479633e-06 2.381087e-06</span></span>
+<span id="cb2-100"><a href="#cb2-100" tabindex="-1"></a><span class="co">#&gt; [161] 2.287081e-06 2.251077e-06 2.043508e-06 2.016440e-06 1.938797e-06</span></span>
+<span id="cb2-101"><a href="#cb2-101" tabindex="-1"></a><span class="co">#&gt; [166] 1.873516e-06 1.768061e-06 1.665270e-06 1.633410e-06 1.585826e-06</span></span>
+<span id="cb2-102"><a href="#cb2-102" tabindex="-1"></a><span class="co">#&gt; [171] 1.560544e-06 1.504851e-06 1.492560e-06 1.467257e-06 1.410087e-06</span></span>
+<span id="cb2-103"><a href="#cb2-103" tabindex="-1"></a><span class="co">#&gt; [176] 1.394581e-06 1.382281e-06 1.330084e-06 1.275907e-06 1.253344e-06</span></span>
+<span id="cb2-104"><a href="#cb2-104" tabindex="-1"></a><span class="co">#&gt; [181] 1.240057e-06 1.213440e-06 1.196957e-06 1.193291e-06 1.165892e-06</span></span>
+<span id="cb2-105"><a href="#cb2-105" tabindex="-1"></a><span class="co">#&gt; [186] 1.158715e-06 1.145436e-06 1.125872e-06 1.118762e-06 1.102773e-06</span></span>
+<span id="cb2-106"><a href="#cb2-106" tabindex="-1"></a><span class="co">#&gt; [191] 1.098264e-06 1.078841e-06 1.075271e-06 1.070437e-06 1.060145e-06</span></span>
+<span id="cb2-107"><a href="#cb2-107" tabindex="-1"></a><span class="co">#&gt; [196] 1.052644e-06 1.039910e-06 1.032961e-06 1.028541e-06 1.020732e-06</span></span>
 <span id="cb2-108"><a href="#cb2-108" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-109"><a href="#cb2-109" tabindex="-1"></a><span class="co">#&gt; $gamma.U</span></span>
-<span id="cb2-110"><a href="#cb2-110" tabindex="-1"></a><span class="co">#&gt; [1] 1.848109</span></span>
+<span id="cb2-110"><a href="#cb2-110" tabindex="-1"></a><span class="co">#&gt; [1] 1.647239</span></span>
 <span id="cb2-111"><a href="#cb2-111" tabindex="-1"></a><span class="co">#&gt; </span></span>
 <span id="cb2-112"><a href="#cb2-112" tabindex="-1"></a><span class="co">#&gt; $gamma.Theta</span></span>
-<span id="cb2-113"><a href="#cb2-113" tabindex="-1"></a><span class="co">#&gt; [1] 0.1778428</span></span>
+<span id="cb2-113"><a href="#cb2-113" tabindex="-1"></a><span class="co">#&gt; [1] 0.1779187</span></span>
 <span id="cb2-114"><a href="#cb2-114" tabindex="-1"></a></span>
 <span id="cb2-115"><a href="#cb2-115" tabindex="-1"></a><span class="do">## test under an alternative distribution</span></span>
 <span id="cb2-116"><a href="#cb2-116" tabindex="-1"></a>X<span class="ot">=</span><span class="fu">matrix</span>(<span class="fu">rchisq</span>(d<span class="sc">*</span>n,<span class="dv">2</span>),<span class="at">nrow=</span>n,<span class="at">ncol=</span>d)</span>
 <span id="cb2-117"><a href="#cb2-117" tabindex="-1"></a><span class="fu">EllKEPT</span>(X,<span class="at">kerU=</span><span class="st">&quot;Gaussian&quot;</span>,<span class="at">kerTheta=</span><span class="st">&quot;Gaussian&quot;</span>)</span>
-<span id="cb2-118"><a href="#cb2-118" tabindex="-1"></a><span class="co">#&gt; $stat</span></span>
-<span id="cb2-119"><a href="#cb2-119" tabindex="-1"></a><span class="co">#&gt; [1] 5.824265</span></span>
-<span id="cb2-120"><a href="#cb2-120" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb2-121"><a href="#cb2-121" tabindex="-1"></a><span class="co">#&gt; $pval</span></span>
-<span id="cb2-122"><a href="#cb2-122" tabindex="-1"></a><span class="co">#&gt; [1] 8.861197e-08</span></span>
-<span id="cb2-123"><a href="#cb2-123" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb2-124"><a href="#cb2-124" tabindex="-1"></a><span class="co">#&gt; $lambda</span></span>
-<span id="cb2-125"><a href="#cb2-125" tabindex="-1"></a><span class="co">#&gt;   [1] 1.927915e-01 5.873504e-02 3.823065e-02 3.221209e-02 2.610856e-02</span></span>
-<span id="cb2-126"><a href="#cb2-126" tabindex="-1"></a><span class="co">#&gt;   [6] 2.087661e-02 1.974292e-02 1.411963e-02 1.077688e-02 8.397257e-03</span></span>
-<span id="cb2-127"><a href="#cb2-127" tabindex="-1"></a><span class="co">#&gt;  [11] 7.643907e-03 6.923854e-03 5.644479e-03 5.242526e-03 4.575622e-03</span></span>
-<span id="cb2-128"><a href="#cb2-128" tabindex="-1"></a><span class="co">#&gt;  [16] 3.855130e-03 3.511931e-03 3.325897e-03 2.932099e-03 2.481081e-03</span></span>
-<span id="cb2-129"><a href="#cb2-129" tabindex="-1"></a><span class="co">#&gt;  [21] 2.381883e-03 2.011032e-03 1.659369e-03 1.632388e-03 1.478255e-03</span></span>
-<span id="cb2-130"><a href="#cb2-130" tabindex="-1"></a><span class="co">#&gt;  [26] 1.183571e-03 1.113807e-03 9.866928e-04 9.169988e-04 8.123973e-04</span></span>
-<span id="cb2-131"><a href="#cb2-131" tabindex="-1"></a><span class="co">#&gt;  [31] 7.547914e-04 6.787842e-04 6.067348e-04 5.034679e-04 4.880360e-04</span></span>
-<span id="cb2-132"><a href="#cb2-132" tabindex="-1"></a><span class="co">#&gt;  [36] 4.245527e-04 3.775821e-04 3.547872e-04 3.347970e-04 2.978522e-04</span></span>
-<span id="cb2-133"><a href="#cb2-133" tabindex="-1"></a><span class="co">#&gt;  [41] 2.815555e-04 2.634804e-04 2.242460e-04 2.089340e-04 1.901784e-04</span></span>
-<span id="cb2-134"><a href="#cb2-134" tabindex="-1"></a><span class="co">#&gt;  [46] 1.712219e-04 1.410829e-04 1.346283e-04 1.185017e-04 9.886833e-05</span></span>
-<span id="cb2-135"><a href="#cb2-135" tabindex="-1"></a><span class="co">#&gt;  [51] 8.782255e-05 8.426498e-05 7.665894e-05 7.011435e-05 6.441106e-05</span></span>
-<span id="cb2-136"><a href="#cb2-136" tabindex="-1"></a><span class="co">#&gt;  [56] 5.916186e-05 5.203184e-05 4.831025e-05 4.599046e-05 4.231330e-05</span></span>
-<span id="cb2-137"><a href="#cb2-137" tabindex="-1"></a><span class="co">#&gt;  [61] 3.783512e-05 3.452000e-05 3.313868e-05 3.022687e-05 2.664902e-05</span></span>
-<span id="cb2-138"><a href="#cb2-138" tabindex="-1"></a><span class="co">#&gt;  [66] 2.227106e-05 1.989966e-05 1.767311e-05 1.687191e-05 1.612107e-05</span></span>
-<span id="cb2-139"><a href="#cb2-139" tabindex="-1"></a><span class="co">#&gt;  [71] 1.506046e-05 1.396138e-05 1.210153e-05 1.127126e-05 9.553097e-06</span></span>
-<span id="cb2-140"><a href="#cb2-140" tabindex="-1"></a><span class="co">#&gt;  [76] 9.345740e-06 8.530440e-06 8.044799e-06 7.828668e-06 7.539044e-06</span></span>
-<span id="cb2-141"><a href="#cb2-141" tabindex="-1"></a><span class="co">#&gt;  [81] 6.227406e-06 5.888178e-06 5.451610e-06 4.955405e-06 4.742398e-06</span></span>
-<span id="cb2-142"><a href="#cb2-142" tabindex="-1"></a><span class="co">#&gt;  [86] 4.553983e-06 4.418100e-06 4.291005e-06 3.984371e-06 3.464732e-06</span></span>
-<span id="cb2-143"><a href="#cb2-143" tabindex="-1"></a><span class="co">#&gt;  [91] 3.266889e-06 3.023045e-06 2.809593e-06 2.474113e-06 2.384086e-06</span></span>
-<span id="cb2-144"><a href="#cb2-144" tabindex="-1"></a><span class="co">#&gt;  [96] 2.299346e-06 2.143555e-06 2.093939e-06 2.028233e-06 1.946739e-06</span></span>
-<span id="cb2-145"><a href="#cb2-145" tabindex="-1"></a><span class="co">#&gt; [101] 1.824235e-06 1.734612e-06 1.716483e-06 1.592446e-06 1.572069e-06</span></span>
-<span id="cb2-146"><a href="#cb2-146" tabindex="-1"></a><span class="co">#&gt; [106] 1.506228e-06 1.457145e-06 1.413275e-06 1.376961e-06 1.336437e-06</span></span>
-<span id="cb2-147"><a href="#cb2-147" tabindex="-1"></a><span class="co">#&gt; [111] 1.296902e-06 1.279546e-06 1.244650e-06 1.234452e-06 1.206742e-06</span></span>
-<span id="cb2-148"><a href="#cb2-148" tabindex="-1"></a><span class="co">#&gt; [116] 1.179838e-06 1.160661e-06 1.154608e-06 1.138159e-06 1.131227e-06</span></span>
-<span id="cb2-149"><a href="#cb2-149" tabindex="-1"></a><span class="co">#&gt; [121] 1.122022e-06 1.103863e-06 1.095979e-06 1.081669e-06 1.076598e-06</span></span>
-<span id="cb2-150"><a href="#cb2-150" tabindex="-1"></a><span class="co">#&gt; [126] 1.069509e-06 1.063789e-06 1.051232e-06 1.049324e-06 1.042065e-06</span></span>
-<span id="cb2-151"><a href="#cb2-151" tabindex="-1"></a><span class="co">#&gt; [131] 1.040006e-06 1.037517e-06 1.034886e-06 1.029664e-06 1.024284e-06</span></span>
-<span id="cb2-152"><a href="#cb2-152" tabindex="-1"></a><span class="co">#&gt; [136] 1.023034e-06 1.022003e-06 1.020296e-06 1.019067e-06 1.018327e-06</span></span>
-<span id="cb2-153"><a href="#cb2-153" tabindex="-1"></a><span class="co">#&gt; [141] 1.017082e-06 1.016197e-06 1.015125e-06 1.014227e-06 1.013430e-06</span></span>
-<span id="cb2-154"><a href="#cb2-154" tabindex="-1"></a><span class="co">#&gt; [146] 1.012262e-06 1.011677e-06 1.011015e-06 1.010830e-06 1.010461e-06</span></span>
-<span id="cb2-155"><a href="#cb2-155" tabindex="-1"></a><span class="co">#&gt; [151] 1.010312e-06 1.010100e-06 1.009557e-06 1.009479e-06 1.009407e-06</span></span>
-<span id="cb2-156"><a href="#cb2-156" tabindex="-1"></a><span class="co">#&gt; [156] 1.009318e-06 1.009164e-06 1.008935e-06 1.008705e-06 1.008594e-06</span></span>
-<span id="cb2-157"><a href="#cb2-157" tabindex="-1"></a><span class="co">#&gt; [161] 1.008346e-06 1.008217e-06 1.008077e-06 1.007961e-06 1.007770e-06</span></span>
-<span id="cb2-158"><a href="#cb2-158" tabindex="-1"></a><span class="co">#&gt; [166] 1.007735e-06 1.007674e-06 1.007642e-06 1.007595e-06 1.007572e-06</span></span>
-<span id="cb2-159"><a href="#cb2-159" tabindex="-1"></a><span class="co">#&gt; [171] 1.007540e-06 1.007533e-06 1.007529e-06 1.007512e-06 1.007498e-06</span></span>
-<span id="cb2-160"><a href="#cb2-160" tabindex="-1"></a><span class="co">#&gt; [176] 1.007455e-06 1.007444e-06 1.007435e-06 1.007375e-06 1.007346e-06</span></span>
-<span id="cb2-161"><a href="#cb2-161" tabindex="-1"></a><span class="co">#&gt; [181] 1.007321e-06 1.007300e-06 1.007289e-06 1.007216e-06 1.007189e-06</span></span>
-<span id="cb2-162"><a href="#cb2-162" tabindex="-1"></a><span class="co">#&gt; [186] 1.007158e-06 1.007096e-06 1.007072e-06 1.007060e-06 1.007028e-06</span></span>
-<span id="cb2-163"><a href="#cb2-163" tabindex="-1"></a><span class="co">#&gt; [191] 1.007018e-06 1.006973e-06 1.006930e-06 1.006907e-06 1.006890e-06</span></span>
-<span id="cb2-164"><a href="#cb2-164" tabindex="-1"></a><span class="co">#&gt; [196] 1.006865e-06 1.006741e-06 1.006670e-06 1.006627e-06 1.006572e-06</span></span>
-<span id="cb2-165"><a href="#cb2-165" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb2-166"><a href="#cb2-166" tabindex="-1"></a><span class="co">#&gt; $gamma.U</span></span>
-<span id="cb2-167"><a href="#cb2-167" tabindex="-1"></a><span class="co">#&gt; [1] 1.473997</span></span>
-<span id="cb2-168"><a href="#cb2-168" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb2-169"><a href="#cb2-169" tabindex="-1"></a><span class="co">#&gt; $gamma.Theta</span></span>
-<span id="cb2-170"><a href="#cb2-170" tabindex="-1"></a><span class="co">#&gt; [1] 0.1604577</span></span>
-<span id="cb2-171"><a href="#cb2-171" tabindex="-1"></a><span class="fu">EllKEPT</span>(X,<span class="at">kerU=</span><span class="st">&quot;PIQ&quot;</span>,<span class="at">kerTheta=</span><span class="st">&quot;PIQ&quot;</span>)</span>
-<span id="cb2-172"><a href="#cb2-172" tabindex="-1"></a><span class="co">#&gt; $stat</span></span>
-<span id="cb2-173"><a href="#cb2-173" tabindex="-1"></a><span class="co">#&gt; [1] 4.426728</span></span>
-<span id="cb2-174"><a href="#cb2-174" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb2-175"><a href="#cb2-175" tabindex="-1"></a><span class="co">#&gt; $pval</span></span>
-<span id="cb2-176"><a href="#cb2-176" tabindex="-1"></a><span class="co">#&gt; [1] 4.765418e-07</span></span>
-<span id="cb2-177"><a href="#cb2-177" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb2-178"><a href="#cb2-178" tabindex="-1"></a><span class="co">#&gt; $lambda</span></span>
-<span id="cb2-179"><a href="#cb2-179" tabindex="-1"></a><span class="co">#&gt;   [1] 1.646927e-01 3.737424e-02 2.732228e-02 2.501739e-02 2.326216e-02</span></span>
-<span id="cb2-180"><a href="#cb2-180" tabindex="-1"></a><span class="co">#&gt;   [6] 1.767231e-02 1.366167e-02 1.137133e-02 8.896104e-03 6.086912e-03</span></span>
-<span id="cb2-181"><a href="#cb2-181" tabindex="-1"></a><span class="co">#&gt;  [11] 5.672798e-03 5.493414e-03 4.948331e-03 4.696390e-03 4.088014e-03</span></span>
-<span id="cb2-182"><a href="#cb2-182" tabindex="-1"></a><span class="co">#&gt;  [16] 3.583218e-03 2.983184e-03 2.769883e-03 2.574814e-03 2.267945e-03</span></span>
-<span id="cb2-183"><a href="#cb2-183" tabindex="-1"></a><span class="co">#&gt;  [21] 2.158971e-03 1.754301e-03 1.656940e-03 1.575126e-03 1.487786e-03</span></span>
-<span id="cb2-184"><a href="#cb2-184" tabindex="-1"></a><span class="co">#&gt;  [26] 1.212008e-03 1.192868e-03 1.045950e-03 9.950876e-04 9.282261e-04</span></span>
-<span id="cb2-185"><a href="#cb2-185" tabindex="-1"></a><span class="co">#&gt;  [31] 8.876219e-04 8.382806e-04 7.405832e-04 6.702246e-04 6.309618e-04</span></span>
-<span id="cb2-186"><a href="#cb2-186" tabindex="-1"></a><span class="co">#&gt;  [36] 6.107121e-04 5.842754e-04 5.401185e-04 5.055844e-04 4.465680e-04</span></span>
-<span id="cb2-187"><a href="#cb2-187" tabindex="-1"></a><span class="co">#&gt;  [41] 4.266652e-04 4.156612e-04 3.974379e-04 3.319859e-04 3.029870e-04</span></span>
-<span id="cb2-188"><a href="#cb2-188" tabindex="-1"></a><span class="co">#&gt;  [46] 2.916491e-04 2.734473e-04 2.465599e-04 2.408118e-04 2.266227e-04</span></span>
-<span id="cb2-189"><a href="#cb2-189" tabindex="-1"></a><span class="co">#&gt;  [51] 2.164394e-04 1.931864e-04 1.869942e-04 1.690429e-04 1.552360e-04</span></span>
-<span id="cb2-190"><a href="#cb2-190" tabindex="-1"></a><span class="co">#&gt;  [56] 1.435750e-04 1.213272e-04 1.140580e-04 1.100192e-04 1.060931e-04</span></span>
-<span id="cb2-191"><a href="#cb2-191" tabindex="-1"></a><span class="co">#&gt;  [61] 1.032872e-04 9.373116e-05 9.195594e-05 8.513171e-05 8.113227e-05</span></span>
-<span id="cb2-192"><a href="#cb2-192" tabindex="-1"></a><span class="co">#&gt;  [66] 7.775030e-05 7.483478e-05 6.806239e-05 6.391047e-05 5.916341e-05</span></span>
-<span id="cb2-193"><a href="#cb2-193" tabindex="-1"></a><span class="co">#&gt;  [71] 5.406257e-05 5.149294e-05 4.774569e-05 4.634647e-05 4.407713e-05</span></span>
-<span id="cb2-194"><a href="#cb2-194" tabindex="-1"></a><span class="co">#&gt;  [76] 4.155996e-05 3.824695e-05 3.504332e-05 3.321416e-05 3.274004e-05</span></span>
-<span id="cb2-195"><a href="#cb2-195" tabindex="-1"></a><span class="co">#&gt;  [81] 3.090641e-05 2.854689e-05 2.680167e-05 2.489154e-05 2.305263e-05</span></span>
-<span id="cb2-196"><a href="#cb2-196" tabindex="-1"></a><span class="co">#&gt;  [86] 2.196689e-05 2.007703e-05 1.896019e-05 1.707490e-05 1.686278e-05</span></span>
-<span id="cb2-197"><a href="#cb2-197" tabindex="-1"></a><span class="co">#&gt;  [91] 1.498746e-05 1.390720e-05 1.341891e-05 1.324903e-05 1.196903e-05</span></span>
-<span id="cb2-198"><a href="#cb2-198" tabindex="-1"></a><span class="co">#&gt;  [96] 1.160769e-05 1.130520e-05 1.039602e-05 9.588650e-06 8.752201e-06</span></span>
-<span id="cb2-199"><a href="#cb2-199" tabindex="-1"></a><span class="co">#&gt; [101] 8.004470e-06 7.966420e-06 7.597211e-06 7.300246e-06 7.201040e-06</span></span>
-<span id="cb2-200"><a href="#cb2-200" tabindex="-1"></a><span class="co">#&gt; [106] 6.302628e-06 6.162509e-06 5.904935e-06 5.808608e-06 5.197134e-06</span></span>
-<span id="cb2-201"><a href="#cb2-201" tabindex="-1"></a><span class="co">#&gt; [111] 4.982071e-06 4.798298e-06 4.588215e-06 4.450646e-06 4.237827e-06</span></span>
-<span id="cb2-202"><a href="#cb2-202" tabindex="-1"></a><span class="co">#&gt; [116] 3.801555e-06 3.744177e-06 3.672724e-06 3.494031e-06 3.410424e-06</span></span>
-<span id="cb2-203"><a href="#cb2-203" tabindex="-1"></a><span class="co">#&gt; [121] 3.094765e-06 2.949380e-06 2.814830e-06 2.613163e-06 2.532212e-06</span></span>
-<span id="cb2-204"><a href="#cb2-204" tabindex="-1"></a><span class="co">#&gt; [126] 2.432266e-06 2.407259e-06 2.128700e-06 2.036591e-06 1.968435e-06</span></span>
-<span id="cb2-205"><a href="#cb2-205" tabindex="-1"></a><span class="co">#&gt; [131] 1.918702e-06 1.870490e-06 1.823156e-06 1.751050e-06 1.648840e-06</span></span>
-<span id="cb2-206"><a href="#cb2-206" tabindex="-1"></a><span class="co">#&gt; [136] 1.646505e-06 1.581296e-06 1.522441e-06 1.504556e-06 1.475580e-06</span></span>
-<span id="cb2-207"><a href="#cb2-207" tabindex="-1"></a><span class="co">#&gt; [141] 1.429871e-06 1.415576e-06 1.363400e-06 1.342504e-06 1.326256e-06</span></span>
-<span id="cb2-208"><a href="#cb2-208" tabindex="-1"></a><span class="co">#&gt; [146] 1.289035e-06 1.244445e-06 1.223586e-06 1.213199e-06 1.202074e-06</span></span>
-<span id="cb2-209"><a href="#cb2-209" tabindex="-1"></a><span class="co">#&gt; [151] 1.167207e-06 1.155458e-06 1.149660e-06 1.130122e-06 1.111508e-06</span></span>
-<span id="cb2-210"><a href="#cb2-210" tabindex="-1"></a><span class="co">#&gt; [156] 1.102203e-06 1.099642e-06 1.090302e-06 1.081971e-06 1.074569e-06</span></span>
-<span id="cb2-211"><a href="#cb2-211" tabindex="-1"></a><span class="co">#&gt; [161] 1.068449e-06 1.065425e-06 1.063802e-06 1.055475e-06 1.054668e-06</span></span>
-<span id="cb2-212"><a href="#cb2-212" tabindex="-1"></a><span class="co">#&gt; [166] 1.050670e-06 1.046495e-06 1.041232e-06 1.037201e-06 1.036650e-06</span></span>
-<span id="cb2-213"><a href="#cb2-213" tabindex="-1"></a><span class="co">#&gt; [171] 1.033112e-06 1.029596e-06 1.026862e-06 1.022747e-06 1.022547e-06</span></span>
-<span id="cb2-214"><a href="#cb2-214" tabindex="-1"></a><span class="co">#&gt; [176] 1.021323e-06 1.018499e-06 1.016635e-06 1.015807e-06 1.014720e-06</span></span>
-<span id="cb2-215"><a href="#cb2-215" tabindex="-1"></a><span class="co">#&gt; [181] 1.014248e-06 1.013457e-06 1.012781e-06 1.010894e-06 1.010254e-06</span></span>
-<span id="cb2-216"><a href="#cb2-216" tabindex="-1"></a><span class="co">#&gt; [186] 1.010005e-06 1.009240e-06 1.008920e-06 1.008776e-06 1.008171e-06</span></span>
-<span id="cb2-217"><a href="#cb2-217" tabindex="-1"></a><span class="co">#&gt; [191] 1.008127e-06 1.007908e-06 1.007451e-06 1.007315e-06 1.007227e-06</span></span>
-<span id="cb2-218"><a href="#cb2-218" tabindex="-1"></a><span class="co">#&gt; [196] 1.007188e-06 1.007157e-06 1.007121e-06 1.007057e-06 1.006842e-06</span></span>
-<span id="cb2-219"><a href="#cb2-219" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb2-220"><a href="#cb2-220" tabindex="-1"></a><span class="co">#&gt; $gamma.U</span></span>
-<span id="cb2-221"><a href="#cb2-221" tabindex="-1"></a><span class="co">#&gt; [1] 1.473997</span></span>
-<span id="cb2-222"><a href="#cb2-222" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb2-223"><a href="#cb2-223" tabindex="-1"></a><span class="co">#&gt; $gamma.Theta</span></span>
-<span id="cb2-224"><a href="#cb2-224" tabindex="-1"></a><span class="co">#&gt; [1] 0.1604577</span></span></code></pre></div>
+<span id="cb2-118"><a href="#cb2-118" tabindex="-1"></a><span class="co">#&gt; Warning in imhof(test.stat.hs, lambda.hs): Note that Qq + abserr is positive.</span></span>
+<span id="cb2-119"><a href="#cb2-119" tabindex="-1"></a><span class="co">#&gt; $stat</span></span>
+<span id="cb2-120"><a href="#cb2-120" tabindex="-1"></a><span class="co">#&gt; [1] 7.706394</span></span>
+<span id="cb2-121"><a href="#cb2-121" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb2-122"><a href="#cb2-122" tabindex="-1"></a><span class="co">#&gt; $pval</span></span>
+<span id="cb2-123"><a href="#cb2-123" tabindex="-1"></a><span class="co">#&gt; [1] 0</span></span>
+<span id="cb2-124"><a href="#cb2-124" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb2-125"><a href="#cb2-125" tabindex="-1"></a><span class="co">#&gt; $lambda</span></span>
+<span id="cb2-126"><a href="#cb2-126" tabindex="-1"></a><span class="co">#&gt;   [1] 2.172896e-01 4.327907e-02 3.737429e-02 2.697266e-02 2.010041e-02</span></span>
+<span id="cb2-127"><a href="#cb2-127" tabindex="-1"></a><span class="co">#&gt;   [6] 1.859594e-02 1.650557e-02 1.464813e-02 1.335625e-02 9.281665e-03</span></span>
+<span id="cb2-128"><a href="#cb2-128" tabindex="-1"></a><span class="co">#&gt;  [11] 8.486144e-03 7.605659e-03 6.768523e-03 5.641675e-03 5.051870e-03</span></span>
+<span id="cb2-129"><a href="#cb2-129" tabindex="-1"></a><span class="co">#&gt;  [16] 4.375521e-03 4.230136e-03 3.568814e-03 3.346071e-03 3.212226e-03</span></span>
+<span id="cb2-130"><a href="#cb2-130" tabindex="-1"></a><span class="co">#&gt;  [21] 2.471269e-03 2.362615e-03 1.907496e-03 1.795785e-03 1.629322e-03</span></span>
+<span id="cb2-131"><a href="#cb2-131" tabindex="-1"></a><span class="co">#&gt;  [26] 1.438447e-03 1.308893e-03 1.250765e-03 1.050098e-03 1.011473e-03</span></span>
+<span id="cb2-132"><a href="#cb2-132" tabindex="-1"></a><span class="co">#&gt;  [31] 8.501476e-04 7.650124e-04 6.947302e-04 6.582059e-04 5.713462e-04</span></span>
+<span id="cb2-133"><a href="#cb2-133" tabindex="-1"></a><span class="co">#&gt;  [36] 5.443006e-04 4.830611e-04 4.182759e-04 3.825068e-04 3.247626e-04</span></span>
+<span id="cb2-134"><a href="#cb2-134" tabindex="-1"></a><span class="co">#&gt;  [41] 3.024651e-04 2.901548e-04 2.583408e-04 2.429902e-04 2.220493e-04</span></span>
+<span id="cb2-135"><a href="#cb2-135" tabindex="-1"></a><span class="co">#&gt;  [46] 2.085067e-04 1.787841e-04 1.599485e-04 1.486446e-04 1.317417e-04</span></span>
+<span id="cb2-136"><a href="#cb2-136" tabindex="-1"></a><span class="co">#&gt;  [51] 1.243676e-04 1.065379e-04 9.508227e-05 8.737639e-05 7.678316e-05</span></span>
+<span id="cb2-137"><a href="#cb2-137" tabindex="-1"></a><span class="co">#&gt;  [56] 6.809033e-05 6.535631e-05 5.650594e-05 5.497675e-05 4.709536e-05</span></span>
+<span id="cb2-138"><a href="#cb2-138" tabindex="-1"></a><span class="co">#&gt;  [61] 4.205226e-05 3.791184e-05 3.531072e-05 3.161782e-05 2.892730e-05</span></span>
+<span id="cb2-139"><a href="#cb2-139" tabindex="-1"></a><span class="co">#&gt;  [66] 2.567464e-05 2.380599e-05 2.290636e-05 2.058238e-05 1.788982e-05</span></span>
+<span id="cb2-140"><a href="#cb2-140" tabindex="-1"></a><span class="co">#&gt;  [71] 1.715542e-05 1.480667e-05 1.433681e-05 1.383789e-05 1.320902e-05</span></span>
+<span id="cb2-141"><a href="#cb2-141" tabindex="-1"></a><span class="co">#&gt;  [76] 1.041941e-05 9.698043e-06 9.000028e-06 7.668401e-06 7.161355e-06</span></span>
+<span id="cb2-142"><a href="#cb2-142" tabindex="-1"></a><span class="co">#&gt;  [81] 6.465927e-06 6.022729e-06 5.853875e-06 5.196830e-06 4.975589e-06</span></span>
+<span id="cb2-143"><a href="#cb2-143" tabindex="-1"></a><span class="co">#&gt;  [86] 4.699145e-06 4.391192e-06 4.179254e-06 3.318934e-06 3.213359e-06</span></span>
+<span id="cb2-144"><a href="#cb2-144" tabindex="-1"></a><span class="co">#&gt;  [91] 3.117403e-06 2.934936e-06 2.839912e-06 2.602962e-06 2.329896e-06</span></span>
+<span id="cb2-145"><a href="#cb2-145" tabindex="-1"></a><span class="co">#&gt;  [96] 2.160692e-06 2.094482e-06 1.962286e-06 1.892245e-06 1.757580e-06</span></span>
+<span id="cb2-146"><a href="#cb2-146" tabindex="-1"></a><span class="co">#&gt; [101] 1.704236e-06 1.645955e-06 1.542281e-06 1.525692e-06 1.474027e-06</span></span>
+<span id="cb2-147"><a href="#cb2-147" tabindex="-1"></a><span class="co">#&gt; [106] 1.389727e-06 1.383770e-06 1.353560e-06 1.334608e-06 1.298677e-06</span></span>
+<span id="cb2-148"><a href="#cb2-148" tabindex="-1"></a><span class="co">#&gt; [111] 1.281683e-06 1.243691e-06 1.238373e-06 1.198160e-06 1.173856e-06</span></span>
+<span id="cb2-149"><a href="#cb2-149" tabindex="-1"></a><span class="co">#&gt; [116] 1.138868e-06 1.117449e-06 1.110570e-06 1.097931e-06 1.091000e-06</span></span>
+<span id="cb2-150"><a href="#cb2-150" tabindex="-1"></a><span class="co">#&gt; [121] 1.083604e-06 1.072821e-06 1.066636e-06 1.063063e-06 1.055921e-06</span></span>
+<span id="cb2-151"><a href="#cb2-151" tabindex="-1"></a><span class="co">#&gt; [126] 1.053410e-06 1.051306e-06 1.037880e-06 1.033789e-06 1.032893e-06</span></span>
+<span id="cb2-152"><a href="#cb2-152" tabindex="-1"></a><span class="co">#&gt; [131] 1.032704e-06 1.027136e-06 1.026420e-06 1.025557e-06 1.021633e-06</span></span>
+<span id="cb2-153"><a href="#cb2-153" tabindex="-1"></a><span class="co">#&gt; [136] 1.019201e-06 1.017599e-06 1.016415e-06 1.015476e-06 1.014779e-06</span></span>
+<span id="cb2-154"><a href="#cb2-154" tabindex="-1"></a><span class="co">#&gt; [141] 1.014437e-06 1.013077e-06 1.012287e-06 1.011999e-06 1.011640e-06</span></span>
+<span id="cb2-155"><a href="#cb2-155" tabindex="-1"></a><span class="co">#&gt; [146] 1.011130e-06 1.010670e-06 1.010245e-06 1.010120e-06 1.009956e-06</span></span>
+<span id="cb2-156"><a href="#cb2-156" tabindex="-1"></a><span class="co">#&gt; [151] 1.009698e-06 1.009357e-06 1.009236e-06 1.009139e-06 1.008988e-06</span></span>
+<span id="cb2-157"><a href="#cb2-157" tabindex="-1"></a><span class="co">#&gt; [156] 1.008965e-06 1.008712e-06 1.008511e-06 1.008306e-06 1.008267e-06</span></span>
+<span id="cb2-158"><a href="#cb2-158" tabindex="-1"></a><span class="co">#&gt; [161] 1.008103e-06 1.008013e-06 1.007944e-06 1.007876e-06 1.007855e-06</span></span>
+<span id="cb2-159"><a href="#cb2-159" tabindex="-1"></a><span class="co">#&gt; [166] 1.007701e-06 1.007663e-06 1.007639e-06 1.007572e-06 1.007551e-06</span></span>
+<span id="cb2-160"><a href="#cb2-160" tabindex="-1"></a><span class="co">#&gt; [171] 1.007477e-06 1.007423e-06 1.007391e-06 1.007325e-06 1.007263e-06</span></span>
+<span id="cb2-161"><a href="#cb2-161" tabindex="-1"></a><span class="co">#&gt; [176] 1.007234e-06 1.007209e-06 1.007194e-06 1.007128e-06 1.007090e-06</span></span>
+<span id="cb2-162"><a href="#cb2-162" tabindex="-1"></a><span class="co">#&gt; [181] 1.007056e-06 1.007049e-06 1.007045e-06 1.007032e-06 1.006968e-06</span></span>
+<span id="cb2-163"><a href="#cb2-163" tabindex="-1"></a><span class="co">#&gt; [186] 1.006944e-06 1.006925e-06 1.006915e-06 1.006897e-06 1.006883e-06</span></span>
+<span id="cb2-164"><a href="#cb2-164" tabindex="-1"></a><span class="co">#&gt; [191] 1.006847e-06 1.006818e-06 1.006813e-06 1.006741e-06 1.006721e-06</span></span>
+<span id="cb2-165"><a href="#cb2-165" tabindex="-1"></a><span class="co">#&gt; [196] 1.006690e-06 1.006639e-06 1.006613e-06 1.006545e-06 1.006515e-06</span></span>
+<span id="cb2-166"><a href="#cb2-166" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb2-167"><a href="#cb2-167" tabindex="-1"></a><span class="co">#&gt; $gamma.U</span></span>
+<span id="cb2-168"><a href="#cb2-168" tabindex="-1"></a><span class="co">#&gt; [1] 1.415863</span></span>
+<span id="cb2-169"><a href="#cb2-169" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb2-170"><a href="#cb2-170" tabindex="-1"></a><span class="co">#&gt; $gamma.Theta</span></span>
+<span id="cb2-171"><a href="#cb2-171" tabindex="-1"></a><span class="co">#&gt; [1] 0.1753465</span></span>
+<span id="cb2-172"><a href="#cb2-172" tabindex="-1"></a><span class="fu">EllKEPT</span>(X,<span class="at">kerU=</span><span class="st">&quot;PIQ&quot;</span>,<span class="at">kerTheta=</span><span class="st">&quot;PIQ&quot;</span>)</span>
+<span id="cb2-173"><a href="#cb2-173" tabindex="-1"></a><span class="co">#&gt; Warning in imhof(test.stat.hs, lambda.hs): Note that Qq + abserr is positive.</span></span>
+<span id="cb2-174"><a href="#cb2-174" tabindex="-1"></a><span class="co">#&gt; $stat</span></span>
+<span id="cb2-175"><a href="#cb2-175" tabindex="-1"></a><span class="co">#&gt; [1] 6.086574</span></span>
+<span id="cb2-176"><a href="#cb2-176" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb2-177"><a href="#cb2-177" tabindex="-1"></a><span class="co">#&gt; $pval</span></span>
+<span id="cb2-178"><a href="#cb2-178" tabindex="-1"></a><span class="co">#&gt; [1] 0</span></span>
+<span id="cb2-179"><a href="#cb2-179" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb2-180"><a href="#cb2-180" tabindex="-1"></a><span class="co">#&gt; $lambda</span></span>
+<span id="cb2-181"><a href="#cb2-181" tabindex="-1"></a><span class="co">#&gt;   [1] 1.779124e-01 3.111117e-02 2.708441e-02 1.966797e-02 1.612432e-02</span></span>
+<span id="cb2-182"><a href="#cb2-182" tabindex="-1"></a><span class="co">#&gt;   [6] 1.543329e-02 1.322711e-02 1.225666e-02 9.874790e-03 8.840102e-03</span></span>
+<span id="cb2-183"><a href="#cb2-183" tabindex="-1"></a><span class="co">#&gt;  [11] 8.290380e-03 6.123218e-03 5.309160e-03 4.752175e-03 4.374944e-03</span></span>
+<span id="cb2-184"><a href="#cb2-184" tabindex="-1"></a><span class="co">#&gt;  [16] 3.833225e-03 3.118932e-03 3.028536e-03 2.888989e-03 2.518892e-03</span></span>
+<span id="cb2-185"><a href="#cb2-185" tabindex="-1"></a><span class="co">#&gt;  [21] 2.259866e-03 2.179212e-03 2.012727e-03 1.887515e-03 1.583134e-03</span></span>
+<span id="cb2-186"><a href="#cb2-186" tabindex="-1"></a><span class="co">#&gt;  [26] 1.464775e-03 1.357590e-03 1.266645e-03 1.205061e-03 1.162694e-03</span></span>
+<span id="cb2-187"><a href="#cb2-187" tabindex="-1"></a><span class="co">#&gt;  [31] 9.253487e-04 8.764667e-04 7.856836e-04 7.567351e-04 7.135993e-04</span></span>
+<span id="cb2-188"><a href="#cb2-188" tabindex="-1"></a><span class="co">#&gt;  [36] 6.847097e-04 6.299896e-04 5.608097e-04 5.364245e-04 5.148483e-04</span></span>
+<span id="cb2-189"><a href="#cb2-189" tabindex="-1"></a><span class="co">#&gt;  [41] 4.655604e-04 4.166789e-04 4.126706e-04 3.935354e-04 3.659803e-04</span></span>
+<span id="cb2-190"><a href="#cb2-190" tabindex="-1"></a><span class="co">#&gt;  [46] 3.373145e-04 3.260193e-04 2.976133e-04 2.809211e-04 2.472218e-04</span></span>
+<span id="cb2-191"><a href="#cb2-191" tabindex="-1"></a><span class="co">#&gt;  [51] 2.347031e-04 2.061474e-04 1.897781e-04 1.784320e-04 1.665190e-04</span></span>
+<span id="cb2-192"><a href="#cb2-192" tabindex="-1"></a><span class="co">#&gt;  [56] 1.619107e-04 1.486394e-04 1.425652e-04 1.292381e-04 1.185360e-04</span></span>
+<span id="cb2-193"><a href="#cb2-193" tabindex="-1"></a><span class="co">#&gt;  [61] 1.139727e-04 1.044086e-04 1.027287e-04 9.482360e-05 8.764063e-05</span></span>
+<span id="cb2-194"><a href="#cb2-194" tabindex="-1"></a><span class="co">#&gt;  [66] 8.339841e-05 7.573833e-05 7.038392e-05 6.146650e-05 6.068425e-05</span></span>
+<span id="cb2-195"><a href="#cb2-195" tabindex="-1"></a><span class="co">#&gt;  [71] 5.849790e-05 5.531343e-05 4.883114e-05 4.557217e-05 4.065341e-05</span></span>
+<span id="cb2-196"><a href="#cb2-196" tabindex="-1"></a><span class="co">#&gt;  [76] 3.846266e-05 3.716876e-05 3.513266e-05 3.339416e-05 3.180008e-05</span></span>
+<span id="cb2-197"><a href="#cb2-197" tabindex="-1"></a><span class="co">#&gt;  [81] 3.014372e-05 2.806879e-05 2.524860e-05 2.358914e-05 2.321499e-05</span></span>
+<span id="cb2-198"><a href="#cb2-198" tabindex="-1"></a><span class="co">#&gt;  [86] 2.193973e-05 2.112365e-05 1.902126e-05 1.849171e-05 1.653576e-05</span></span>
+<span id="cb2-199"><a href="#cb2-199" tabindex="-1"></a><span class="co">#&gt;  [91] 1.568648e-05 1.524953e-05 1.442947e-05 1.333984e-05 1.314179e-05</span></span>
+<span id="cb2-200"><a href="#cb2-200" tabindex="-1"></a><span class="co">#&gt;  [96] 1.217186e-05 1.156505e-05 1.038404e-05 1.014050e-05 9.340428e-06</span></span>
+<span id="cb2-201"><a href="#cb2-201" tabindex="-1"></a><span class="co">#&gt; [101] 8.072172e-06 7.959245e-06 7.746198e-06 6.718116e-06 6.214019e-06</span></span>
+<span id="cb2-202"><a href="#cb2-202" tabindex="-1"></a><span class="co">#&gt; [106] 5.866003e-06 5.645622e-06 5.352389e-06 5.113291e-06 5.004526e-06</span></span>
+<span id="cb2-203"><a href="#cb2-203" tabindex="-1"></a><span class="co">#&gt; [111] 4.674688e-06 4.238219e-06 4.132783e-06 3.818068e-06 3.557514e-06</span></span>
+<span id="cb2-204"><a href="#cb2-204" tabindex="-1"></a><span class="co">#&gt; [116] 3.307465e-06 3.159942e-06 2.997813e-06 2.960766e-06 2.786128e-06</span></span>
+<span id="cb2-205"><a href="#cb2-205" tabindex="-1"></a><span class="co">#&gt; [121] 2.690231e-06 2.520020e-06 2.345984e-06 2.238862e-06 2.211387e-06</span></span>
+<span id="cb2-206"><a href="#cb2-206" tabindex="-1"></a><span class="co">#&gt; [126] 2.054573e-06 2.011219e-06 1.930259e-06 1.913868e-06 1.797350e-06</span></span>
+<span id="cb2-207"><a href="#cb2-207" tabindex="-1"></a><span class="co">#&gt; [131] 1.758678e-06 1.654816e-06 1.607491e-06 1.563644e-06 1.530689e-06</span></span>
+<span id="cb2-208"><a href="#cb2-208" tabindex="-1"></a><span class="co">#&gt; [136] 1.485358e-06 1.423558e-06 1.388155e-06 1.365946e-06 1.347973e-06</span></span>
+<span id="cb2-209"><a href="#cb2-209" tabindex="-1"></a><span class="co">#&gt; [141] 1.331459e-06 1.307643e-06 1.276401e-06 1.238250e-06 1.210094e-06</span></span>
+<span id="cb2-210"><a href="#cb2-210" tabindex="-1"></a><span class="co">#&gt; [146] 1.178391e-06 1.168067e-06 1.156970e-06 1.131615e-06 1.128921e-06</span></span>
+<span id="cb2-211"><a href="#cb2-211" tabindex="-1"></a><span class="co">#&gt; [151] 1.120484e-06 1.114604e-06 1.097919e-06 1.090072e-06 1.084973e-06</span></span>
+<span id="cb2-212"><a href="#cb2-212" tabindex="-1"></a><span class="co">#&gt; [156] 1.076612e-06 1.066083e-06 1.060805e-06 1.058784e-06 1.056219e-06</span></span>
+<span id="cb2-213"><a href="#cb2-213" tabindex="-1"></a><span class="co">#&gt; [161] 1.049380e-06 1.048913e-06 1.045172e-06 1.040307e-06 1.036231e-06</span></span>
+<span id="cb2-214"><a href="#cb2-214" tabindex="-1"></a><span class="co">#&gt; [166] 1.035054e-06 1.031063e-06 1.029610e-06 1.025841e-06 1.025545e-06</span></span>
+<span id="cb2-215"><a href="#cb2-215" tabindex="-1"></a><span class="co">#&gt; [171] 1.023425e-06 1.020959e-06 1.019014e-06 1.018337e-06 1.017028e-06</span></span>
+<span id="cb2-216"><a href="#cb2-216" tabindex="-1"></a><span class="co">#&gt; [176] 1.014200e-06 1.013690e-06 1.013648e-06 1.012735e-06 1.012564e-06</span></span>
+<span id="cb2-217"><a href="#cb2-217" tabindex="-1"></a><span class="co">#&gt; [181] 1.010606e-06 1.010013e-06 1.009876e-06 1.008792e-06 1.008546e-06</span></span>
+<span id="cb2-218"><a href="#cb2-218" tabindex="-1"></a><span class="co">#&gt; [186] 1.008258e-06 1.007962e-06 1.007609e-06 1.007578e-06 1.007510e-06</span></span>
+<span id="cb2-219"><a href="#cb2-219" tabindex="-1"></a><span class="co">#&gt; [191] 1.007418e-06 1.007197e-06 1.007171e-06 1.007024e-06 1.006869e-06</span></span>
+<span id="cb2-220"><a href="#cb2-220" tabindex="-1"></a><span class="co">#&gt; [196] 1.006725e-06 1.006693e-06 1.006678e-06 1.006595e-06 1.006428e-06</span></span>
+<span id="cb2-221"><a href="#cb2-221" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb2-222"><a href="#cb2-222" tabindex="-1"></a><span class="co">#&gt; $gamma.U</span></span>
+<span id="cb2-223"><a href="#cb2-223" tabindex="-1"></a><span class="co">#&gt; [1] 1.415863</span></span>
+<span id="cb2-224"><a href="#cb2-224" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb2-225"><a href="#cb2-225" tabindex="-1"></a><span class="co">#&gt; $gamma.Theta</span></span>
+<span id="cb2-226"><a href="#cb2-226" tabindex="-1"></a><span class="co">#&gt; [1] 0.1753465</span></span></code></pre></div>
 
 
 
